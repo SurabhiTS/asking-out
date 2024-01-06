@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    
+    height:100vh;
+    overflow:hidden;
+    font-family: 'Playpen Sans', cursive;
+    /*font-family: 'Roboto', sans-serif;*/
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:576px){
+    .container{
+        width:100%;
+    }
+    #gif{
+        width:80%;
+    }
+}
+#yes, #no{
+    padding:10px 20px;
+    color:white;
+    font-size:20px;
+    font-weight:600;
+    margin:10px;
+    border:none;
+    border-radius:5px;
+    background-color: rgb(255,192,203);
+}
+#text{
+    color: rgb(255,192,203);
+    font-size:30px;
+    font-weight:700;
+}
+
